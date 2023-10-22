@@ -1,0 +1,606 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a, label {
+    display: inline-block;
+}
+.asosiy {
+    max-width: 1400px;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+}
+.asos {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.bir {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.ba {
+    width: 20%;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.lex {
+    color: rgb(76, 75, 75);
+}
+.lex:hover {
+    text-shadow: 0 0 5px red;
+}
+.blink {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    width: 20%;
+    text-align: center;
+}
+.bt {
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+}
+.bt:hover {
+    border: 2px solid blue;
+    color: tomato;
+}
+.la {
+    text-decoration: none;
+    color: black;
+}
+.la:hover {
+    color: blue;
+}
+.iki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.id {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.ih1 {
+    width: 41%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.ip {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.ibtn {
+    font-size: 35px;
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: rgb(6, 6, 25);
+    position: relative;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+.ibtn::before, .ibtn::after {
+    position: absolute;
+    content: "Get started";
+    left: 0;
+    width: 100%;
+    height: 80%;
+    color: white;
+    transition: 0.4s;
+}
+.ibtn::before {
+    bottom: 0;
+}
+.ibtn::after {
+    bottom: -80%;
+    font-weight: bold;
+    font-size: 35px;
+}
+.ibtn:hover::before, .ibtn:hover::after {
+    transform: translateY(-100%);
+}
+.ichap {
+    width: 49%;
+}
+.iong {
+    width: 49%;
+}
+.uch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px    ;
+}
+.div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.ubx {
+    width: 22%;
+    background-color: rgb(233, 233, 225);
+    padding: 10px;
+    border-radius: 5px;
+}
+.uh2 {
+    margin-bottom: 20px;
+}
+.up {
+    margin-bottom: 15px;
+}
+.up2 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.up3 {
+    margin-top: 20px;
+    margin-bottom: 180px;
+}
+.ubtn {
+    background-color: rgb(24, 24, 46);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+.ubtn:hover {
+    background-color: black;
+    color: orange;
+}
+.ubtn2:hover {
+    background-color: black;
+    color: orange;
+}
+.ubtn3:hover {
+    background-color: black;
+    color: orange;
+}
+.ubtn4:hover {
+    background-color: black;
+    color: orange;
+}
+.ubtn2 {
+    background-color: rgb(24, 24, 46);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    margin-top: 108px;
+}
+.ubtn3 {
+    background-color: rgb(24, 24, 46);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 50px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.ubtn4 {
+    background-color: rgb(24, 24, 46);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+.upp {
+    margin-bottom: 20px;
+}
+.tort {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.tchap {
+    width: 50%;
+}
+.th1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.tp {
+    margin-bottom: 25px;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+}
+.dp {
+    color: rgb(85, 85, 85);
+    text-align: center;
+}
+.tim {
+    width: 40%;
+}
+.th2 {
+    font-size: 35px;
+    color: rgb(14, 14, 28);
+    text-align: center;
+    margin-bottom: 2px;
+}
+.tson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.besh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: first baseline;
+    margin-bottom: 150px;
+}
+.bx {
+    width: 29%;
+}
+.bh2 {
+    margin-bottom: 15px;
+}
+.bp {
+    color: rgb(67, 66, 66);
+    margin-bottom: 20px;
+}
+.bba {
+    text-decoration: none;
+    background-color: rgb(61, 61, 61);
+    color: tomato;
+    padding: 5px 15px;
+    font-size: 18px;
+    position: relative;
+    color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+}
+.bba::before, .bba::after {
+    position: absolute;
+    content: "£20.99";
+    left: 10px;
+    width: 100%;
+    height: 80%;
+    color: tomato;
+    transition: 0.4s;
+}
+.bba::before {
+    bottom: 0;
+}
+.bba::after {
+    bottom: -80%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bba:hover::before, .bba:hover::after {
+    transform: translateY(-100%);
+}
+.bba1 {
+    text-decoration: none;
+    background-color: rgb(61, 61, 61);
+    color: tomato;
+    padding: 5px 15px;
+    margin-top: 18px;
+    font-size: 18px;
+    position: relative;
+    color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+}
+.bba1::before, .bba1::after {
+    position: absolute;
+    content: "£20.99";
+    left: 10px;
+    width: 100%;
+    height: 80%;
+    color: tomato;
+    transition: 0.4s;
+}
+.bba1::before {
+    bottom: 0;
+}
+.bba1::after {
+    bottom: -80%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bba1:hover::before, .bba1:hover::after {
+    transform: translateY(-100%);
+}
+.bba2 {
+    text-decoration: none;
+    background-color: rgb(61, 61, 61);
+    color: tomato;
+    padding: 5px 15px;
+    margin-top: 18px;
+    font-size: 18px;
+    position: relative;
+    color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+}
+.bba2::before, .bba2::after {
+    position: absolute;
+    content: "£20.99";
+    left: 10px;
+    width: 100%;
+    height: 80%;
+    color: tomato;
+    transition: 0.4s;
+}
+.bba2::before {
+    bottom: 0;
+}
+.bba2::after {
+    bottom: -80%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bba2:hover::before, .bba2:hover::after {
+    transform: translateY(-100%);
+}
+.sp {
+    color: rgb(241, 201, 2);
+}
+.olti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.oim {
+    width: 35%;
+}
+.ong {
+    width: 55%;
+}
+.oh1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.op {
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: rgb(40, 40, 40);
+}
+.input {
+    padding: 20px 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.btnn {
+    padding: 22px 40px;
+    background-color: rgb(13, 13, 29);
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}
+.chz {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(53, 52, 52);
+    margin-bottom: 50px;
+}
+.yeti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.a {
+    text-decoration: none;
+    color: rgb(63, 47, 47);
+    font-size: 25px;
+}
+
+
+
+
+@media(max-width:1100px){
+    .ubx {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:800px){
+    .ubx {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .tchap {
+        width: 100%;
+    }
+    .tim {
+        width: 100%;
+    }
+    .bx {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:880px){
+    .ichap {
+        width: 100%;
+        text-align: center;
+    }
+    .im {
+        display: none;
+    }
+    .ih1 {
+        width: 100%;
+    }
+    .iong {
+        width: 100%;
+    }
+    .oim {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .input {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:750px){
+    .btn {
+        width: 50%;
+    }
+    .ba {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .a {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:600px){
+    .ba {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .a {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+@media(max-width:500px){
+    .ubx {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .tchap {
+        text-align: center;
+    }
+    .bx {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ba {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .a {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+@media(max-width:450px){
+    .ichap {
+        width: 100%;
+        text-align: center;
+    }
+    .im {
+        display: none;
+    }
+    .ih1 {
+        width: 100%;
+    }
+    .iong {
+        width: 100%;
+    }
+    .ibtn {
+        font-size: 25px;
+        padding: 10px 40px;
+    }
+    .ibtn::after {
+        font-size: 25px;
+    }
+    .input {
+        padding: 15px 40px;
+    }
+    .oh1 {
+        width: 100%;
+        font-size: 30px;
+    }
+    .op {
+        width: 100%;
+        text-align: center;
+    }
+    .ba {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .a {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .btn, .blink {
+        width: 100%;
+    }
+    .blink {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:300px){
+    .ichap {
+        width: 100%;
+        text-align: center;
+    }
+    .im {
+        display: none;
+    }
+    .ih1 {
+        width: 100%;
+    }
+    .iong {
+        width: 100%;
+    }
+    .ibtn {
+        font-size: 25px;
+        padding: 10px 40px;
+    }
+    .ibtn::after {
+        font-size: 25px;
+    }
+    .ba {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .a {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .btn {
+        width: 100%;
+    }
+}
